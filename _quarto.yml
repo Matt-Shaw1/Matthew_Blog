@@ -1,5 +1,6 @@
 project:
   type: website
+
 website:
   title: "Matthew's Blog"
   site-url: "https://Matt-Shaw1.github.io/Matthew_Blog"
@@ -18,3 +19,5 @@ website:
 format:
   html:
     theme: theme.scss
+
+output-dir: docs
