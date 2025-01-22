@@ -7,6 +7,13 @@
     "text": "This is my first blog post using Quarto"
   },
   {
+    "objectID": "my-blog/blog.html",
+    "href": "my-blog/blog.html",
+    "title": "Blog Posts",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog Posts",
@@ -16,6 +23,13 @@
   {
     "objectID": "index.html",
     "href": "index.html",
+    "title": "Welcome to Matthew’s Blog",
+    "section": "",
+    "text": "Hi, I’m Matthew!\nWelcome to my blog, where I share my projects and learning experiences.\nHere are some recent posts:"
+  },
+  {
+    "objectID": "my-blog/index.html",
+    "href": "my-blog/index.html",
     "title": "Welcome to Matthew’s Blog",
     "section": "",
     "text": "Hi, I’m Matthew!\nWelcome to my blog, where I share my projects and learning experiences.\nHere are some recent posts:"

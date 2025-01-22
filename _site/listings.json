@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/my-blog/blog.html",
+    "items": []
+  },
+  {
     "listing": "/blog.html",
     "items": [
       "/posts/first.html"
