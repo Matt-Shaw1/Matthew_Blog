@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "posts/first.html",
+    "href": "posts/first.html",
+    "title": "My First Post",
+    "section": "",
+    "text": "This is my first blog post using Quarto"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog Posts",
+    "section": "",
+    "text": "My First Post\n\n\n\n\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Matthew’s Blog",
+    "section": "",
+    "text": "Hi, I’m Matthew!\nWelcome to my blog, where I share my projects and learning experiences.\nHere are some recent posts:"
+  }
+]

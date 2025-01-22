@@ -1,0 +1,9 @@
+---
+title: "Welcome to Matthew's Blog"
+page-layout: full
+---
+
+# Hi, I'm Matthew!
+Welcome to my blog, where I share my projects and learning experiences.
+
+Here are some recent posts:
