@@ -1,7 +1,123 @@
 /*-- scss:defaults --*/
-$primary: #06436e !default;
+/* Define global variables for colors, fonts, and spacing */
+$primary: #06436e !default; /* Primary color for the site */
+$secondary: #f4f4f4 !default; /* Light background color */
+$accent: #ff5722 !default; /* Accent color for highlights and buttons */
+$text-color: #333 !default; /* General text color */
+$link-hover: #ffdd57 !default; /* Hover color for links */
+
+$font-family-base: 'Roboto', sans-serif !default; /* Font for body text */
+$headings-font-family: 'Playfair Display', serif !default; /* Font for headings */
 
 /*-- scss:rules --*/
+/* Global body styling */
 body {
+  background-color: $secondary;
+  color: $text-color;
+  font-family: $font-family-base;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headings-font-family;
+  color: $primary;
+  margin-bottom: 1rem;
+}
+
+/* Links and hover effects */
+a {
+  color: $primary;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: $link-hover;
+  text-decoration: underline;
+}
+
+/* Navbar styling */
+.navbar {
   background-color: $primary;
+  color: white;
+  padding: 1rem;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 1rem;
+}
+
+.navbar a:hover {
+  color: $accent;
+}
+
+/* Footer styling */
+footer {
+  background-color: $primary;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: $accent;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Button styling */
+button {
+  background-color: $primary;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: $accent;
+}
+
+/* Styling for code blocks */
+pre, code {
+  background-color: $secondary;
+  padding: 1rem;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  overflow-x: auto;
+}
+
+/* Blog post titles */
+#title-block-header.quarto-title-block.default .quarto-title .title {
+  font-size: 2.5rem;
+  font-family: $headings-font-family;
+  color: $primary;
+  margin-bottom: 1.5rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  body {
+    padding: 0 1rem;
+  }
+
+  .navbar {
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
 }
