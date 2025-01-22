@@ -1,5 +1,9 @@
 ---
-title: "About"
+title: "Welcome to Matthew's Blog"
+page-layout: full
 ---
 
-About this site
+# Hi, I'm Matthew!
+Welcome to my blog, where I share my projects, tutorials, and learning experiences.
+
+Here are some recent posts:

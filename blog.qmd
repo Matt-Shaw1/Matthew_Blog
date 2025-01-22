@@ -1,7 +1,8 @@
 ---
-title: "my-blog"
+title: "Blog Posts"
+listing:
+  contents: posts/**/*.qmd
+  sort: "date desc"
+  type: default
+  fields: [date, title, reading-time, description]
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

@@ -1,19 +1,20 @@
 project:
   type: website
-
 website:
-  title: "my-blog"
+  title: "Matthew's Blog"
+  site-url: "https://Matt-Shaw1.github.io/Matthew_Blog"
+  description: "A blog about my projects and learning journey."
   navbar:
+    title: "My Blog"
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: Blog
+        href: blog.qmd
+      - text: About
+        href: index.qmd
+    right:
+      - icon: github
+        href: https://github.com/Matt-Shaw1
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
-
-
-
+    theme: theme.scss

@@ -1,0 +1,39 @@
+/* Set primary color for links, buttons, etc. */
+$primary: #06436e !default;
+
+/* Fonts for text and headings */
+$font-family-base: 'Roboto', sans-serif !default;
+$headings-font-family: 'Playfair Display', serif !default;
+
+/* General body styling */
+$body-color: #333 !default;
+
+/* Navbar customization */
+.navbar {
+  background-color: #06436e;
+  color: #ffffff;
+}
+
+.navbar a {
+  color: #ffffff;
+}
+
+/* Blog post titles */
+#title-block-header.quarto-title-block.default .quarto-title .title {
+  font-size: 2rem;
+  font-family: $headings-font-family;
+}
+
+/* Footer styling */
+footer {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Links hover effect */
+a:hover {
+  text-decoration: underline;
+  color: $primary;
+}
