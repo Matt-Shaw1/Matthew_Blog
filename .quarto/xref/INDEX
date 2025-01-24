@@ -19,5 +19,11 @@
   },
   "my-blog/posts/first.qmd": {
     "first.html": "968358fb"
+  },
+  "first.qmd": {
+    "first.html": "e1647ad2"
+  },
+  "Projects.qmd": {
+    "Projects.html": "577ba45a"
   }
 }

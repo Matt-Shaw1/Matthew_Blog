@@ -1,7 +1,7 @@
 [
   {
-    "objectID": "posts/first.html",
-    "href": "posts/first.html",
+    "objectID": "first.html",
+    "href": "first.html",
     "title": "My First Post",
     "section": "",
     "text": "This is my first blog post using Quarto"
@@ -11,7 +11,7 @@
     "href": "blog.html",
     "title": "Blog Posts",
     "section": "",
-    "text": "My First Post\n\n\n\n\n\n\n\n\n\n\n\n\nJan 22, 2025\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
     "objectID": "index.html",
